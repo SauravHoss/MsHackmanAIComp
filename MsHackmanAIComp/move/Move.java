@@ -42,6 +42,11 @@ public class Move {
         this.moveType = moveType;
         this.bombTicks = bombTicks;
     }
+    
+    public MoveType moveTo(Node x)
+    {
+    	int myX = myPosition.x
+    }
 
     public String toString() {
         if (this.moveType == MoveType.PASS || this.bombTicks == null) {
